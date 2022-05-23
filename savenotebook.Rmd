@@ -1,11 +1,11 @@
 ---
-title: "R Notebook"
+title: "R Notebook for ggplot"
 output: html_notebook
 ---
 
 
-
 ```{r}
+library(ggplot2)
 library(readr)
 adae<- read_csv("https://rhoinc.github.io/data-library/data/clinical-trials/adam/adae.csv")
 ```
